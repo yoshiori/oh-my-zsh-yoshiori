@@ -10,11 +10,10 @@
 # White: 242, 242, 242
 
 # The prompt
-
-PROMPT='%{$fg[magenta]%}[%~] %{$reset_color%}'
+PROMPT="%{$fg[magenta]%}┌[%{$fg[green]%}%~%{$fg[magenta]%}]
+└> [%{$fg[green]%}%n%{$fg[red]%}❤ %{$fg[green]%}%M%{$fg[magenta]%}]%{$fg[yellow]%}⨠%{$reset_color%} "
 
 # The right-hand prompt
-
 RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_stash_count)%{$reset_color%}'
 
 # local time, color coded by last return code
