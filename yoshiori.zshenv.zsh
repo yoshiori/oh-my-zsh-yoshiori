@@ -20,9 +20,6 @@ case $OSTYPE {
         ZSH_THEME="gentoo"
         plugins=(git);;
     darwin*)
-
-        ZSH_THEME="muse"
-        ZSH_THEME="wedisagree"
         ZSH_THEME="yoshiori"
         plugins=(git osx ruby brew);;
 }
