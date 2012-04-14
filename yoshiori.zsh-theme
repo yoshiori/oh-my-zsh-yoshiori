@@ -11,7 +11,7 @@
 
 # The prompt
 PROMPT="%{$fg[magenta]%}┌[%{$fg[green]%}%~%{$fg[magenta]%}]
-└> [%{$fg[green]%}%n%{$fg[red]%}❤ %{$fg[green]%}%M%{$fg[magenta]%}]%{$fg[yellow]%}⨠%{$reset_color%} "
+└> [%{$fg[cyan]%}%n%{$fg[red]%}❤ %{$fg[cyan]%}%M%{$fg[magenta]%}]%{$fg[yellow]%}⨠%{$reset_color%} "
 
 # The right-hand prompt
 RPROMPT='${time} %{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%}$(git_prompt_stash_count)%{$reset_color%}'
